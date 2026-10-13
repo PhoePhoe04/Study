@@ -1,0 +1,184 @@
+# ==============================================================================
+# .gitignore for Multi-Language & Multi-Subject Learning Repository
+# Covers: Python, Java, C#, C++, Go, Web/Node.js, IDEs, OS, and Secrets
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment & Sensitive Data (Bảo mật & Biến môi trường)
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+secrets.json
+
+# ------------------------------------------------------------------------------
+# 2. Operating System Files (Hệ điều hành)
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ------------------------------------------------------------------------------
+# 3. IDEs & Editors (Trình soạn thảo mã nguồn)
+# ------------------------------------------------------------------------------
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, CLion, Rider, GoLand, WebStorm)
+.idea/
+*.iml
+*.iws
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+
+# Eclipse
+.metadata
+.recommenders
+.classpath
+.project
+.settings/
+
+# General editor backups
+*.swp
+*.swo
+*~
+*.bak
+
+# ------------------------------------------------------------------------------
+# 4. Python
+# ------------------------------------------------------------------------------
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments (Môi trường ảo)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging / Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------------------------
+# 5. Java
+# ------------------------------------------------------------------------------
+# Compiled classes & archives
+*.class
+*.war
+*.ear
+*.nar
+
+# Build tools (Maven / Gradle)
+target/
+.gradle/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# ------------------------------------------------------------------------------
+# 6. C# / .NET
+# ------------------------------------------------------------------------------
+bin/
+obj/
+Debug/
+Release/
+[Bb]in/
+[Oo]bj/
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ------------------------------------------------------------------------------
+# 7. C / C++
+# ------------------------------------------------------------------------------
+# Compiled Objects & Libraries
+*.o
+*.obj
+*.ko
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake & build generators
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile.in
+*.ninja
+
+# ------------------------------------------------------------------------------
+# 8. Go (Golang)
+# ------------------------------------------------------------------------------
+# Go test & build binaries
+*.test
+*.prof
+
+# ------------------------------------------------------------------------------
+# 9. Node.js / Web (Nếu có học frontend / fullstack)
+# ------------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+.nuxt/
+
+# ------------------------------------------------------------------------------
+# 10. General Logs & Temp Files
+# ------------------------------------------------------------------------------
+*.log
+*.tmp
+
